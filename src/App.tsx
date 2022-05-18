@@ -18,7 +18,10 @@ export default function App() {
             <div className="panther"></div>
             <div className="content">
                 <div className="forsta-logo"/>
-                <div className="title">Pink Panther OST (TO-DO TO-DO...)</div>
+                <div className="title">
+                    Pink Panther OST
+                    (todo todo <i className="bi bi-music-note-beamed"></i>)
+                </div>
                 <TodoList
                     todos={todos}
                     setTodos={setTodos}
